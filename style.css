@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url("assets/bkground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.year{
+    font-size: 100px;
+    color: rgb(232, 229, 226);
+    -webkit-text-stroke: 3px black;
+    font-family: 'Dancing Script', cursive;
+}
+.Feliz{
+    text-indent: 70px;
+}
+p{
+    font-size: 32px;
+    margin:20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
