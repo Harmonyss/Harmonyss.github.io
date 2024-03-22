@@ -1,28 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="shortcut icon"  href="assets/Coracao.png">
-    <link rel="stylesheet" href="style.css">
-    <title>Feliz 2024</title>
+    <title>Rapha ♥</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <div class="center">
-        <div class="year">
-            <h1 class="Feliz">Feliz</h1>
-            <h1>2024</h1>
+    <form action="https://formsubmit.co/lucassomacedo@gmail.com" method="post">
+        <div class="container">
+            <div class="envelope-wrapper">
+                
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong>Raphaela.</strong>
+                            <p>
+                                Oie Rapha, desde que eu vi seu insta, eu tenho um Crush em você, quero sabe se gostaria de
+                                sair para jantar, ir ao parque, ao cinema...?
+                                O local não importa, quero te conhecer melhor. Não sei quando você irá ver essa carta, mas
+                                estarei esperando. Se/quando estiver afim (11) 96123-2136
+                            </p>
+                            <h5>Última Att:<strong> HOJE</strong></h5>
+                            <h3>Lucas</h3>
+                        </div>
+                    </div>
+                    <div class="hearts">
+                        <div class="heart a1"></div>
+                        <div class="heart a2"></div>
+                        <div class="heart a3"></div>
+                    </div>
+                </div>
+                <div class="heart1"></div>
+                <input type="submit" class="flap" id="btn" value="ABRIR">
+            </div>
+            
         </div>
-    </div>
-    <div class="center">
-        <div class="message">
-            <p>Oiiê Rapha, Prazer me chamo Lucas, encontrei seu SALVEEEEEEEEE pelas Sugestões de Amizade do Facebook e te achei muito bonita.</p>
-            <p>Pelo Insta, vi que você trabalha com TI, o que me deixou mais interessado, por isso resolvi fazer está "pagina". <br>PS.: Não sou muito bom em Design &#128579;</p>
-            <p>Caso tbm esteja interessada, podemos nos conhecer melhor, favor avisar, sou meio timido hehe! <span>&#129392;&#127881;</span></p>
-        </div>
-    </div>
+        <input type="hidden" value="GWEN" name ="name">
+        <input type="hidden" name="_next" value="https://harmonyss.github.io/">
+        <input type="hidden" name="_captcha" value="false">
+        
+    </form>
+
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
 </body>
+
 </html>
